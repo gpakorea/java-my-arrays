@@ -1,0 +1,36 @@
+/*
+ * Project: MyArrays.java
+ * Description: A simple program that converts numbers to chars.
+ * Name: Aaron Snowberger
+ * Date: Nov 2, 2015
+ */
+
+/**
+ * Notes:
+ * 0. You need 2 FOR LOOPS + 1 ARRAY
+ * 1. FOR LOOP 1 = count from 65-90 and add each number to ARRAY 1
+ *    char ch[] = {}; ch[0] = 'A' (ch[x] = (char)65;)
+ * 2. FOR LOOP 2 = print the 26 Letters with one comma and one space
+ */
+
+public class MyArrays {
+  
+  public static void main( String[] args ) {
+    
+    char ch[] = {};
+    int index = 0;
+    
+    // FOR LOOP 1
+    for( int x=65; x<91; x++ ) {
+      ch[index] = (char) x;
+      index++;
+      System.out.println( ch[index] );
+    }
+    
+    // FOR LOOP 2
+    for () {
+      
+    }
+  } // END main method
+  
+} // END class
